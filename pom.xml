@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<!--modelVersion / -->
+	<modelVersion>4.0.0</modelVersion>
+	<!--parent / -->
+	<!--groupId / -->
+	<groupId>org.apache.maven</groupId>
+	<!--artifactId / -->
+	<artifactId>org.apache.maven-wrapper</artifactId>
+	<!--packaging / -->
+	<packaging>pom</packaging>
+	<!--name / -->
+	<!--version / -->
+	<version>1</version>
+	<!--description / -->
+	<!--url / -->
+	<!--prerequisites / -->
+	<!--issueManagement / -->
+	<!--ciManagement / -->
+	<!--inceptionYear / -->
+	<!--mailingLists / -->
+	<!--developers / -->
+	<!--contributors / -->
+	<!--licenses / -->
+	<!--scm / -->
+	<!--organization / -->
+	<!--build / -->
+	<!--profiles / -->
+	<profiles>
+		<profile><id>wrapper_maven</id><modules><module>maven</module></modules></profile>
+		<profile><id>wrapper_maven-compiler-plugin</id><modules><module>maven-compiler-plugin</module></modules></profile>
+		<profile><id>wrapper_maven-enforcer</id><modules><module>maven-enforcer</module></modules></profile>
+		<profile><id>wrapper_maven-resolver</id><modules><module>maven-resolver</module></modules></profile>
+		<profile><id>wrapper_maven-resources-plugin</id><modules><module>maven-resources-plugin</module></modules></profile>
+		<profile><id>wrapper_maven-surefire</id><modules><module>maven-surefire</module></modules></profile>
+		<profile><id>wrapper_maven-wagon</id><modules><module>maven-wagon</module></modules></profile>
+	</profiles>
+	<!--modules / -->
+	<!--repositories / -->
+	<!--pluginRepositories / -->
+	<!--dependencies / -->
+	<!--reports (Deprecated) / -->
+	<!--reporting / -->
+	<!--dependencyManagement / -->
+	<!--distributionManagement / -->
+	<!--properties / -->
+</project>
