@@ -35,6 +35,7 @@
 		<profile><id>wrapper_maven-resources-plugin</id><modules><module>maven-resources-plugin</module></modules></profile>
 		<profile><id>wrapper_maven-surefire</id><modules><module>maven-surefire</module></modules></profile>
 		<profile><id>wrapper_maven-wagon</id><modules><module>maven-wagon</module></modules></profile>
+		<profile><id>wrapper_maven-wrapper</id><modules><module>maven-wagon</module></modules></profile>
 	</profiles>
 	<!--modules / -->
 	<!--repositories / -->
