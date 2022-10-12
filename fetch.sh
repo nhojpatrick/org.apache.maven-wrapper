@@ -1,4 +1,8 @@
 #!/bin/zsh
 
-/bin/zsh -i -c forksFetch && \
-echo "done org.apache.maven" ;
+CWD=`pwd`
+
+cd ${CWD} && /bin/zsh -i -c forksFetch && \
+echo "done org.apache.maven forks" ;
+
+cd ${CWD} ;
