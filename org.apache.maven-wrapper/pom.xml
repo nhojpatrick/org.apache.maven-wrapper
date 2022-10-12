@@ -33,6 +33,7 @@
 		<profile><id>wrapper_maven-filtering</id><modules><module>../maven-filtering</module></modules></profile>
 		<profile><id>wrapper_maven-resolver</id><modules><module>../maven-resolver</module></modules></profile>
 		<profile><id>wrapper_maven-resources-plugin</id><modules><module>../maven-resources-plugin</module></modules></profile>
+		<profile><id>wrapper_maven-site</id><modules><module>../maven-site</module></modules></profile>
 		<profile><id>wrapper_maven-surefire</id><modules><module>../maven-surefire</module></modules></profile>
 		<profile><id>wrapper_maven-wagon</id><modules><module>../maven-wagon</module></modules></profile>
 		<profile><id>wrapper_maven-wrapper</id><modules><module>../maven-wagon</module></modules></profile>
