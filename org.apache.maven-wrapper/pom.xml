@@ -27,15 +27,15 @@
 	<!--build / -->
 	<!--profiles / -->
 	<profiles>
-		<profile><id>wrapper_maven</id><modules><module>maven</module></modules></profile>
-		<profile><id>wrapper_maven-compiler-plugin</id><modules><module>maven-compiler-plugin</module></modules></profile>
-		<profile><id>wrapper_maven-enforcer</id><modules><module>maven-enforcer</module></modules></profile>
-		<profile><id>wrapper_maven-filtering</id><modules><module>maven-filtering</module></modules></profile>
-		<profile><id>wrapper_maven-resolver</id><modules><module>maven-resolver</module></modules></profile>
-		<profile><id>wrapper_maven-resources-plugin</id><modules><module>maven-resources-plugin</module></modules></profile>
-		<profile><id>wrapper_maven-surefire</id><modules><module>maven-surefire</module></modules></profile>
-		<profile><id>wrapper_maven-wagon</id><modules><module>maven-wagon</module></modules></profile>
-		<profile><id>wrapper_maven-wrapper</id><modules><module>maven-wagon</module></modules></profile>
+		<profile><id>wrapper_maven</id><modules><module>../maven</module></modules></profile>
+		<profile><id>wrapper_maven-compiler-plugin</id><modules><module>../maven-compiler-plugin</module></modules></profile>
+		<profile><id>wrapper_maven-enforcer</id><modules><module>../maven-enforcer</module></modules></profile>
+		<profile><id>wrapper_maven-filtering</id><modules><module>../maven-filtering</module></modules></profile>
+		<profile><id>wrapper_maven-resolver</id><modules><module>../maven-resolver</module></modules></profile>
+		<profile><id>wrapper_maven-resources-plugin</id><modules><module>../maven-resources-plugin</module></modules></profile>
+		<profile><id>wrapper_maven-surefire</id><modules><module>../maven-surefire</module></modules></profile>
+		<profile><id>wrapper_maven-wagon</id><modules><module>../maven-wagon</module></modules></profile>
+		<profile><id>wrapper_maven-wrapper</id><modules><module>../maven-wagon</module></modules></profile>
 	</profiles>
 	<!--modules / -->
 	<!--repositories / -->
