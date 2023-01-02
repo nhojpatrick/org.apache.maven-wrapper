@@ -1,6 +1,5 @@
 maven/
 maven-enforcer/
-maven-filtering
 maven-resolver/
 maven-resources-plugin/
 maven-site/
