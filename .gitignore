@@ -1,5 +1,4 @@
 maven/
-maven-compiler-plugin/
 maven-enforcer/
 maven-filtering
 maven-resolver/
