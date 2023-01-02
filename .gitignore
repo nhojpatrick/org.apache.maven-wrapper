@@ -2,5 +2,4 @@ maven/
 maven-enforcer/
 maven-site/
 maven-surefire/
-maven-wagon/
 maven-wrapper/
